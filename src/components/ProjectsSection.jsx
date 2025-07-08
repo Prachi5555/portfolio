@@ -8,27 +8,26 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "https://full-stack-rishikesh.vercel.app/",
-    githubUrl: "https://github.com/Nitin-Budakoti/full_stack_rishikesh",
+    githubUrl: "https://github.com/Prachi5555/Rishikesh_tourism_web_app",
   },
   {
     id: 2,
-    title: "DCT Home Page",
+    title: "Restaurant Landing Page",
     description:
-      "A beautiful landing page app using React and Tailwind.",
+      "A beautiful landing page app using HTML,CSS,Javascript.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "https://chipper-youtiao-9a2f22.netlify.app/",
-    githubUrl: "https://github.com/Nitin-Budakoti/Zenoheal_Landing_page",
+    tags: ["HTML", "CSS", "Javascript"],
+    demoUrl: "http://foodie-hro5.vercel.app",
+    githubUrl: "https://github.com/Prachi5555/FOODIE",
   },
   {
     id: 3,
-    title: "A learning management system ",
+    title: "Movie Recommendation System",
     description:
-      "Full-featured e-commerce platform with user authentication",
+      "Developed a movie recommendation model using Cosine Similarity and CountVectorizer",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Python", "Scikit-Learn", "NLP"],
+    githubUrl: "https://github.com/Prachi5555/movie_reccomendation",
   },
 ];
 
@@ -100,7 +99,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/Nitin-Budakoti/"
+            href="https://github.com/Prachi-Negi/"
           >
             Check My Github <ArrowRight size={16} />
           </a>
